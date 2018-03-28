@@ -1,0 +1,10 @@
+void setup();
+void on_digit_irq();
+void on_op_irg();
+void process_digits();
+void on_digit_up(char digit);
+void on_digit_down(char digit);
+void process_ops();
+void loop();
+char touch_to_char(uint8_t addr, uint8_t pin);
+void on_calculator_state_change(char input);
