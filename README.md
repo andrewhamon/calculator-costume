@@ -22,7 +22,7 @@ My over-the-top Halloween costume.
 
 # Implementation details
 - Micro-controller was an [Adafruit Metro Mini](https://www.adafruit.com/product/2590)
-- Giant 7-segment LEDs were [from Sparkfun](https://www.sparkfun.com/products/8530) and [were driven by this handy backpack](https://www.sparkfun.com/products/13279)
+- Giant 7-segment LEDs were [from Sparkfun](https://www.sparkfun.com/products/8530) and were driven by [a handy backpack board](https://www.sparkfun.com/products/13279)
   - Controlling the display is essentially controlling a shift register
-- Capacitive buttons implemented with copper tape, wire, and a couple of these [Adafruit capacitive sensing boards](https://www.adafruit.com/product/1982)
+- Capacitive buttons were implemented with copper tape, wire, and a couple of these [Adafruit capacitive sensing breakouts](https://www.adafruit.com/product/1982)
 - Bluetooth was the [Adafruit BLE UART friend](https://www.adafruit.com/product/2479) + software serial
